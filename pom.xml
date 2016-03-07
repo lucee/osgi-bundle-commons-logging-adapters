@@ -120,7 +120,7 @@
             <Bundle-Description>OSGI version of jar ${project.name}</Bundle-Description>
             <Export-Package>*</Export-Package>
             <Require-Bundle>org.lucee.commons.logging.api;bundle-version=1.1.0,log4j;bundle-version=1.2.17</Require-Bundle>
-            <Import-Package>!org.apache.log,!org.apache.avalon.framework.logger</Import-Package>
+            <Import-Package>!org.apache.log,!org.apache.avalon.framework.logger,*</Import-Package>
             <DynamicImport-Package>org.apache.log,org.apache.avalon.framework.logger</DynamicImport-Package>
           </instructions>
         </configuration>
